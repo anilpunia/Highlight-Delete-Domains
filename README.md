@@ -1,5 +1,5 @@
-# Highlight-Delete-Domains
-============================= Highlight Domain Deletion Script ==========================
+# Highlight Domain Deletion Script
+
 **Overview**:
 This script allows you to delete domains from the Highlight using the provided Highlight access token. 
 You need to provide the Highlight Company-ID/Root Domain ID and the path to a CSV file containing the 
