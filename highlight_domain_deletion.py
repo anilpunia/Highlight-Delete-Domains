@@ -11,8 +11,6 @@ def delete_domain(base_url, company_id, domain_id, token):
         #print("Inside try block")  # Add this line
         print("REST API:", url)  # Add this line
         response = requests.delete(url, headers=headers)
-        #print("Response Status Code:", response.status_code)
-        #print("Response Content:", response.content)
         response.raise_for_status()  # Raise an HTTPError for bad response status codes
 
         if response.status_code == 204:
